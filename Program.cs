@@ -13,7 +13,6 @@
             double radius = Convert.ToDouble(radiusInString);
 
             Shape mycircle = new Circle { Radius = radius };//polymorfism Circle behandlsa som shape
-            mycircle.CalculateArea();
             Console.WriteLine("The Area of the Cirvle is :" + mycircle.CalculateArea()+"\n\n");
 
 
